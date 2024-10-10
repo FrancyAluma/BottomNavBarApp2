@@ -131,7 +131,9 @@ class MainActivity : ComponentActivity() {
                                 }
                             }
                         }
-                    ) {}
+                    ) {
+                        val padding = it
+                    }
                 }
 
             }
